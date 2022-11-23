@@ -27,6 +27,7 @@ if how=='Insert YouTube URL':
     song=st.text_input("Insert YouTube URL for the song you want")
 elif how=='Use default song'    :
     song='https://www.youtube.com/watch?v=usErwHORDHQ'
+st.markdown("---")
 vid=st.empty()
 st.session_state['playing']=False
 
